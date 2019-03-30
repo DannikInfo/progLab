@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/2/Factory.cpp
+iostream
+-
+Factory.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/2/Factory.h
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/2/Factory.h
+triangle.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/2/triangle.h
+rectangle.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/2/rectangle.h
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/2/Vec2I.h
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/2/rectangle.h
+Vec2I.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/2/Vec2I.h
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/2/triangle.h
+Vec2I.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/2/Vec2I.h
+

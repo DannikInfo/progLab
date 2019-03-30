@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/2.dir/main.cpp.o CMakeFiles/2.dir/triangle.cpp.o CMakeFiles/2.dir/Vec2I.cpp.o CMakeFiles/2.dir/handler.cpp.o CMakeFiles/2.dir/rectangle.cpp.o CMakeFiles/2.dir/Factory.cpp.o  -o 2 
