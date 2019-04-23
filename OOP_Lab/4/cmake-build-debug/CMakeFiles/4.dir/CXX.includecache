@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/4/main.cpp
+iostream
+-
+noteContainer.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/4/noteContainer.h
+note.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/4/note.h
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/4/note.cpp
+note.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/4/note.h
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/4/note.h
+string
+-
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/4/noteContainer.cpp
+noteContainer.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/4/noteContainer.h
+iostream
+-
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/4/noteContainer.h
+note.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/4/note.h
+
