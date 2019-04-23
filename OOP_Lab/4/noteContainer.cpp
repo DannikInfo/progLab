@@ -10,33 +10,29 @@ note noteContainer::select(string name, string lastName){
     for(int i = 0; i < 8; i++){
         if(book[i].getName() == name && book[i].getLastName() == lastName)
             return book[i];
-        else
-            cout<<"Записи с таким именем и фамилией не существует!"<<endl;
     }
+    return note();
 }
 note noteContainer::select(string lastName){
     for(int i = 0; i < 8; i++){
         if(book[i].getLastName() == lastName)
             return book[i];
-        else
-            cout<<"Записи с такой фамилией не существует!"<<endl;
     }
+    return note();
 }
 note noteContainer::select(int number){
     for(int i = 0; i < 8; i++){
         if(book[i].getNumber() == number)
             return book[i];
-        else
-            cout<<"Записи с таким номером не существует!"<<endl;
     }
+    return note();
 }
 note noteContainer::select(int* bDay){
     for(int i = 0; i < 8; i++){
         if(book[i].getBDay() == bDay)
             return book[i];
-        else
-            cout<<"Записи с таким днем рождения не существует!"<<endl;
     }
+    return note();
 }
 
 void noteContainer::insert(string name, string lastName, note n){

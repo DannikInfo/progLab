@@ -1,12 +1,10 @@
 #include <iostream>
 #include "noteContainer.h"
-#include "note.h"
 
 
 int main() {
     int k = 10;
     noteContainer cont;
-    note n;
     string name, lastName;
     int number, day, month, year, i;
     while (k != 0){
@@ -28,15 +26,14 @@ int main() {
             case 2:
                 cout << "Введите фамилию" << endl;
                 cin >> lastName;
-                try {
-                    n = cont.select(lastName);
+                note n = cont.select(lastName);
+                if(n.getName() != ""){
                     cout << "Имя: " << n.getName() << endl <<
                     "Фамилия: " << n.getLastName() << endl <<
                     "Номер: " << n.getNumber() << endl <<
                     "Дата рождения: " << n.getBDay()[0] << "." << n.getBDay()[1] << "." << n.getBDay()[2] << endl;
-                }catch(exception e) {
+                }else
                     cout << "Такой записи не существует!" << endl;
-                }
                 break;
         }
     }

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 project(4)
-
+set(CUDA_USE_STATIC_CUDA_RUNTIME OFF)
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(4 main.cpp note.cpp note.h noteContainer.cpp noteContainer.h)
+add_executable(4 main.cpp note.cpp note.h noteContainer.cpp)

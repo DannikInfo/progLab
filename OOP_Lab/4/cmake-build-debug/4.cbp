@@ -94,9 +94,6 @@
 		<Unit filename="/Users/danilkozlovskij/CLionProjects/OOP_Lab/4/noteContainer.cpp">
 			<Option target="4"/>
 		</Unit>
-		<Unit filename="/Users/danilkozlovskij/CLionProjects/OOP_Lab/4/noteContainer.h">
-			<Option target="4"/>
-		</Unit>
 		<Unit filename="/Users/danilkozlovskij/CLionProjects/OOP_Lab/4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

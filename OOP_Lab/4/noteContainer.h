@@ -9,18 +9,18 @@
 
 class noteContainer {
 public:
-    static note book[8];
+    note book[8];
 
-    note static select(string name, string lastName);
-    note static select(string lastName);
-    note static select(int number);
-    note static select(int* bDay);
+    note select(string name, string lastName);
+    note select(string lastName);
+    note select(int number);
+    note select(int* bDay);
 
-    void static insert(string name, string lastName, note n);
-    void static insert(int number, note n);
-    void static insert(int* bDay, note n);
+    void insert(string name, string lastName, note n);
+    void insert(int number, note n);
+    void insert(int* bDay, note n);
 
-    void static sort();
+    void sort();
 };
 
 
