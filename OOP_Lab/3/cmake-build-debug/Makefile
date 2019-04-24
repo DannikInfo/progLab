@@ -123,33 +123,6 @@ depend:
 	$(MAKE) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/build
 .PHONY : 3/fast
 
-deque.o: deque.cpp.o
-
-.PHONY : deque.o
-
-# target to build an object file
-deque.cpp.o:
-	$(MAKE) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/deque.cpp.o
-.PHONY : deque.cpp.o
-
-deque.i: deque.cpp.i
-
-.PHONY : deque.i
-
-# target to preprocess a source file
-deque.cpp.i:
-	$(MAKE) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/deque.cpp.i
-.PHONY : deque.cpp.i
-
-deque.s: deque.cpp.s
-
-.PHONY : deque.s
-
-# target to generate assembly for a file
-deque.cpp.s:
-	$(MAKE) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/deque.cpp.s
-.PHONY : deque.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 3"
-	@echo "... deque.o"
-	@echo "... deque.i"
-	@echo "... deque.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

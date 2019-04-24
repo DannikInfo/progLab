@@ -1,5 +1,6 @@
 #include <iostream>
-#include "deque.h"
+#include <string>
+#include "deq.h"
 
 using namespace std;
 
@@ -9,49 +10,66 @@ int main() {
     int i;
     double d;
     string s;
-    deq dI;
-    //deque2<double> dD;
-    //deque2<string> dS;
+    deq<int> dI;
+    deq<double> dD;
+    deq<string> dS;
+    cout << "Меню:" << endl <<
+         "0. Закрыть программу" << endl <<
+         "1. Создать очереди" << endl <<
+         "2. Заполнение строковой очереди с начала" << endl <<
+         "3. Числовой" << endl <<
+         "4. С плавающей точкой" << endl <<
+         "5. Вывод числовой очереди с начала" << endl <<
+         "6. С плавающей точкой" << endl <<
+         "7. Строковой" << endl <<
+         "8. Вывод числовой очереди с конца" << endl <<
+         "9. С плавающей точкой" << endl <<
+         "10. Строковой" << endl <<
+         "11. Очистка числовой очереди" << endl <<
+         "12. С плавающей точкой" << endl <<
+         "13. Строковой" << endl <<
+         "14. Заполнение строковой очереди с конца" << endl <<
+         "15. Числовой" << endl <<
+         "16. С плавающей точкой" << endl;
     while(k != 0){
-        cout << "Меню:";
         cin >> k;
         switch(k){
             case 1:
                 cout << "Введите размер очереди: ";
                 cin >> size;
                 dI.sSize(size);
-                //dD.setSize(size);
-                //dS.setSize(size);
+                dD.sSize(size);
+                dS.sSize(size);
                 break;
                 //очистка дека
-           /* case 13:
-                dS.clear();
+            case 13:
+                dS.clr();
                 break;
             case 12:
-                dD.clear();
+                dD.clr();
                 break;
             case 11:
-                dI.clear();
+                dI.clr();
                 break;
                 //вывод сзади
             case 10:
-                cout << "конец:" << dS.getBack() << endl;
+                cout << "конец: " << dS.getBack() << endl;
                 break;
             case 9:
-                cout << "конец:" << dD.getBack() << endl;
+                cout << "конец: " << dD.getBack() << endl;
                 break;
             case 8:
-                cout << "конец:" << dI.getBack() << endl;
+                cout << "конец: " << dI.getBack() << endl;
                 break;
                 //вывод спереди
             case 7:
-                cout << "начало:" << dS.getFront() << endl;
+                cout << "начало: " << dS.getFront() << endl;
                 break;
             case 6:
-                cout << "начало:" << dD.getFront() << endl;
+                cout << "начало: " << dD.getFront() << endl;
                 break;
             case 5:
-                cout << "начало:" << dI.getFront() << endl;
+                cout << "начало: " << dI.getFront() << endl;
                 break;
                 //заполнение дека c конца
             case 16:
@@ -84,7 +102,7 @@ int main() {
                 cout << "Введите строку:";
                 cin >> s;
                 dS.addFront(s);
-                break;*/
+                break;
         }
     }
     return 0;

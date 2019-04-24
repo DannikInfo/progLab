@@ -82,10 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/danilkozlovskij/CLionProjects/OOP_Lab/3/deque.cpp">
-			<Option target="3"/>
-		</Unit>
-		<Unit filename="/Users/danilkozlovskij/CLionProjects/OOP_Lab/3/deque.h">
+		<Unit filename="/Users/danilkozlovskij/CLionProjects/OOP_Lab/3/deq.h">
 			<Option target="3"/>
 		</Unit>
 		<Unit filename="/Users/danilkozlovskij/CLionProjects/OOP_Lab/3/main.cpp">

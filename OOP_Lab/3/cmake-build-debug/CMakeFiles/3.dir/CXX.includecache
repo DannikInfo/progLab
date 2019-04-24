@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/danilkozlovskij/CLionProjects/OOP_Lab/3/deque.cpp
-deque.h
-/Users/danilkozlovskij/CLionProjects/OOP_Lab/3/deque.h
-
-/Users/danilkozlovskij/CLionProjects/OOP_Lab/3/deque.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/3/deq.h
+list
+-
 
 /Users/danilkozlovskij/CLionProjects/OOP_Lab/3/main.cpp
 iostream
 -
-deque.h
-/Users/danilkozlovskij/CLionProjects/OOP_Lab/3/deque.h
+string
+-
+deq.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/3/deq.h
 
