@@ -23,6 +23,12 @@ int main() {
                 }
                 cont.sort();
                 break;
+            case 3:
+                cout << "Имя " << " Фамилия " << " Номер " << " Дата рождения" << endl;
+                for (int j = 0; j < 8; ++j) {
+                    cout << cont.book[j].getName() << " " << cont.book[j].getLastName() << " " << cont.book[j].getNumber() << " " << cont.book[j].getBDay()[0] << "." << cont.book[j].getBDay()[1] << "." << cont.book[j].getBDay()[2] << endl;
+                }
+                break;
             case 2:
                 cout << "Введите фамилию" << endl;
                 cin >> lastName;
