@@ -30,7 +30,8 @@ int main() {
          "13. Строковой" << endl <<
          "14. Заполнение строковой очереди с конца" << endl <<
          "15. Числовой" << endl <<
-         "16. С плавающей точкой" << endl;
+         "16. С плавающей точкой" << endl <<
+         "17. Вывод полной очереди" << endl;
     while(k != 0){
         cin >> k;
         switch(k){
@@ -102,6 +103,11 @@ int main() {
                 cout << "Введите строку:";
                 cin >> s;
                 dS.addFront(s);
+                break;
+            case 17:
+                dI.printDeq();
+                dD.printDeq();
+                dS.printDeq();
                 break;
         }
     }

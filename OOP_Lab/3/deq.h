@@ -1,9 +1,13 @@
 #ifndef DEQUE_H
 #define DEQUE_H
 
+#include <iostream>
 #include <list>
+#include <iterator>
 
-template<class T>class deq : private std::list<T>{
+using namespace std;
+
+template<class T>class deq : private list<T>{
 private:
     int sizeLimit;
 public:
@@ -34,6 +38,11 @@ public:
         T data = this->front();
         //removeFront();
         return data;
+    }
+
+    void printDeq(){
+        copy (this->begin(), this->end(), ostream_iterator<T>(cout," "));
+        cout << endl;
     }
 
     int getSize(){

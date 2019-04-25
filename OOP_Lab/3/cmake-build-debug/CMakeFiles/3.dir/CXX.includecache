@@ -7,7 +7,11 @@
 #IncludeRegexTransform: 
 
 /Users/danilkozlovskij/CLionProjects/OOP_Lab/3/deq.h
+iostream
+-
 list
+-
+iterator
 -
 
 /Users/danilkozlovskij/CLionProjects/OOP_Lab/3/main.cpp
