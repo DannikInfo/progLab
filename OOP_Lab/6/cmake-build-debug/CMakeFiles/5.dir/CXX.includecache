@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/6/bus.h
+string
+-
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/6/busContainer.h
+map
+-
+bus.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/6/bus.h
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/6/main.cpp
+iostream
+-
+busContainer.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/6/busContainer.h
+

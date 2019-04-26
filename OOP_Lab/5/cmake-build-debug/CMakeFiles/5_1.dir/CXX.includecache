@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/fileHandler.cpp
+iostream
+-
+fstream
+-
+string
+-
+list
+-
+fileHandler.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/fileHandler.h
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/fileHandler.h
+string
+-
+list
+-
+
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/main.cpp
+iostream
+-
+fileHandler.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/fileHandler.h
+
