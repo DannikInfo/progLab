@@ -40,7 +40,9 @@ string fileHandler::handleString(string str){
     replace(str, "?", "?\n");
     replace(str, "!", "!\n");
     for(int i = 0; i < 10; i++)
-        replace(str, to_string(i), repl[i]);
+        while(replace(str, to_string(i), repl[i]));
+    while(replace(str, " .", "."));
+    while(replace(str, "  ", " "));
     return str;
 }
 

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1
+CMAKE_SOURCE_DIR = /Users/danilkozlovskij/CLionProjects/OOP_Lab/5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/danilkozlovskij/CLionProjects/OOP_Lab/5/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/5_1.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/5_1.dir/flags.make
 
 CMakeFiles/5_1.dir/main.cpp.o: CMakeFiles/5_1.dir/flags.make
 CMakeFiles/5_1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5_1.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_1.dir/main.cpp.o -c /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/danilkozlovskij/CLionProjects/OOP_Lab/5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5_1.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_1.dir/main.cpp.o -c /Users/danilkozlovskij/CLionProjects/OOP_Lab/5/main.cpp
 
 CMakeFiles/5_1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5_1.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/main.cpp > CMakeFiles/5_1.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/danilkozlovskij/CLionProjects/OOP_Lab/5/main.cpp > CMakeFiles/5_1.dir/main.cpp.i
 
 CMakeFiles/5_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5_1.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/main.cpp -o CMakeFiles/5_1.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/danilkozlovskij/CLionProjects/OOP_Lab/5/main.cpp -o CMakeFiles/5_1.dir/main.cpp.s
 
 CMakeFiles/5_1.dir/fileHandler.cpp.o: CMakeFiles/5_1.dir/flags.make
 CMakeFiles/5_1.dir/fileHandler.cpp.o: ../fileHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/5_1.dir/fileHandler.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_1.dir/fileHandler.cpp.o -c /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/fileHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/danilkozlovskij/CLionProjects/OOP_Lab/5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/5_1.dir/fileHandler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5_1.dir/fileHandler.cpp.o -c /Users/danilkozlovskij/CLionProjects/OOP_Lab/5/fileHandler.cpp
 
 CMakeFiles/5_1.dir/fileHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5_1.dir/fileHandler.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/fileHandler.cpp > CMakeFiles/5_1.dir/fileHandler.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/danilkozlovskij/CLionProjects/OOP_Lab/5/fileHandler.cpp > CMakeFiles/5_1.dir/fileHandler.cpp.i
 
 CMakeFiles/5_1.dir/fileHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5_1.dir/fileHandler.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/fileHandler.cpp -o CMakeFiles/5_1.dir/fileHandler.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/danilkozlovskij/CLionProjects/OOP_Lab/5/fileHandler.cpp -o CMakeFiles/5_1.dir/fileHandler.cpp.s
 
 # Object files for target 5_1
 5_1_OBJECTS = \
@@ -95,7 +95,7 @@ CMakeFiles/5_1.dir/fileHandler.cpp.s: cmake_force
 5_1: CMakeFiles/5_1.dir/fileHandler.cpp.o
 5_1: CMakeFiles/5_1.dir/build.make
 5_1: CMakeFiles/5_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 5_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/danilkozlovskij/CLionProjects/OOP_Lab/5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 5_1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/5_1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/5_1.dir/clean:
 .PHONY : CMakeFiles/5_1.dir/clean
 
 CMakeFiles/5_1.dir/depend:
-	cd /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1 /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1 /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/cmake-build-debug /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/cmake-build-debug /Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/cmake-build-debug/CMakeFiles/5_1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/danilkozlovskij/CLionProjects/OOP_Lab/5/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/danilkozlovskij/CLionProjects/OOP_Lab/5 /Users/danilkozlovskij/CLionProjects/OOP_Lab/5 /Users/danilkozlovskij/CLionProjects/OOP_Lab/5/cmake-build-debug /Users/danilkozlovskij/CLionProjects/OOP_Lab/5/cmake-build-debug /Users/danilkozlovskij/CLionProjects/OOP_Lab/5/cmake-build-debug/CMakeFiles/5_1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/5_1.dir/depend
 

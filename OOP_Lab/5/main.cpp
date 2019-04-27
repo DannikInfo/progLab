@@ -11,7 +11,7 @@ int main() {
         cin >> k;
         switch(k){
             case 1:
-                f.readFile("/Users/danilkozlovskij/ClionProjects/OOP_lab/5-1/input.txt"); //Полный путь к файлу!
+                f.readFile("/Users/danilkozlovskij/ClionProjects/OOP_lab/5/input.txt"); //Полный путь к файлу!
                 break;
         }
     }

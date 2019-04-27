@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/fileHandler.cpp
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/5/fileHandler.cpp
 iostream
 -
 fstream
@@ -16,17 +16,11 @@ string
 list
 -
 fileHandler.h
-/Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/fileHandler.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/5/fileHandler.h
 
-/Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/fileHandler.h
+/Users/danilkozlovskij/CLionProjects/OOP_Lab/5/fileHandler.h
 string
 -
 list
 -
-
-/Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/main.cpp
-iostream
--
-fileHandler.h
-/Users/danilkozlovskij/CLionProjects/OOP_Lab/5-1/fileHandler.h
 
